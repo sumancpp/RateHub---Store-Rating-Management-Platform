@@ -12,6 +12,8 @@
     "db:deploy": "npx prisma migrate deploy",
     "db:generate": "npx prisma generate",
     "db:seed": "node prisma/seed.js",
+    "db:studio": "npx prisma studio",
+    "db:inspect": "node scripts/inspect-db.js",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --runInBand --detectOpenHandles --forceExit"
   },
   "dependencies": {
