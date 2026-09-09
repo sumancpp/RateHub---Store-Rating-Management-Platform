@@ -1,0 +1,25 @@
+{
+  "name": "ratehub",
+  "version": "1.0.0",
+  "description": "Store Rating Management Platform",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "db:start": "npm run db:start --prefix backend",
+    "db:migrate": "npm run db:migrate --prefix backend",
+    "db:seed": "npm run db:seed --prefix backend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "test:backend": "npm test --prefix backend",
+    "build:frontend": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "store-ratings",
+    "express",
+    "react",
+    "postgresql",
+    "prisma"
+  ],
+  "author": "",
+  "license": "ISC"
+}
